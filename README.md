@@ -6,7 +6,7 @@
 
 > **Projeto desenvolvido como Prova de Conceito (POC) para aumentar a segurança operacional em pátios e linhas férreas.**
 
-![Demonstração do Sistema](demo_preview.png)
+![Demonstração do Sistema](demo_preview.jpg)
 
 ## 🎯 Objetivo do Projeto
 Desenvolver uma solução de **monitoramento inteligente em tempo real** capaz de identificar intrusões em áreas de risco (trilhos e zonas de manobra) automaticamente, sem depender apenas da atenção humana.
