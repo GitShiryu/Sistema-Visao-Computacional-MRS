@@ -27,6 +27,14 @@ O sistema simula uma câmera de segurança da **MRS Logística**, detectando pes
 * ✅ **HUD Profissional:** Interface visual que simula sistemas de CFTV corporativos.
 
 ## 💻 Como Executar
-1. **Instalar Dependências:**
-   ```bash
-   pip install ultralytics opencv-python
+Para rodar o projeto, execute os comandos abaixo sequencialmente no seu terminal:
+
+```bash
+# 1. Instalar Dependências (IA e Visão Computacional)
+pip install ultralytics opencv-python
+
+# 2. Rodar o Monitoramento
+python monitoramento_ia.py
+
+---
+*Desenvolvido por Rômulo | Foco em Soluções Digitais e Segurança Operacional com IA.*
