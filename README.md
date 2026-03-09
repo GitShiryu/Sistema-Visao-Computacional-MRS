@@ -1,36 +1,39 @@
-# 👁️ Sistema de Visão Computacional para Segurança Ferroviária (POC)
+# 👁️ Computer Vision System for Railway Safety (POC)
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer_Vision-green?style=for-the-badge&logo=opencv)
 ![YOLOv8](https://img.shields.io/badge/AI-YOLOv8-purple?style=for-the-badge)
 
-> **Projeto desenvolvido como Prova de Conceito (POC) para aumentar a segurança operacional em pátios e linhas férreas.**
+> **Project developed as a Proof of Concept (POC) to increase operational safety in railway yards and lines..**
 
-![Demonstração do Sistema](demo_preview.jpg)
+![System Demonstration](demo_preview.jpg)
 
-## 🎯 Objetivo do Projeto
-Desenvolver uma solução de **monitoramento inteligente em tempo real** capaz de identificar intrusões em áreas de risco (trilhos e zonas de manobra) automaticamente, sem depender apenas da atenção humana.
+## 🎯 Project Objective
+To develop a **real-time intelligent monitoring** solution capable of automatically identifying intrusions in high-risk areas (railways and maneuvering zones), without relying solely on human attention.
 
-O sistema simula uma câmera de segurança da **MRS Logística**, detectando pessoas próximas à via e emitindo alertas visuais imediatos para prevenir acidentes.
+The system simulates a security camera from **MRS Logística**, detecting people near the tracks and issuing immediate visual alerts to prevent accidents.
 
-## 🛠️ Tecnologias Utilizadas
-* **Python 3.10:** Linguagem base para processamento de dados.
-* **YOLOv8 (Ultralytics):** Estado da arte em Inteligência Artificial para detecção de objetos com alta precisão e velocidade.
-* **OpenCV:** Manipulação de vídeo e desenho de interfaces gráficas (HUD) sobre a imagem.
-* **Lógica de Segurança:** Algoritmo que classifica o nível de risco (Normal vs Crítico) dependendo do objeto detectado na via.
+## 🛠️ Technologies Used
+* **Python 3.10:** Base language for data processing.
+* **YOLOv8 (Ultralytics):** State-of-the-art Artificial Intelligence for object detection with high precision and speed.
+* **OpenCV:** Video manipulation and graphical interface (HUD) design over the image.
+* **Safety Logic:** Algorithm that classifies the risk level (Normal vs. Critical) depending on the object detected on the road.
 
-## 🚀 Funcionalidades
-* ✅ **Detecção de Humanos e Veículos:** Identifica pedestres, carros e caminhões.
-* ✅ **Classificação de Risco:**
-    * 🟢 **Verde:** Área segura / Monitoramento normal.
-    * 🔴 **Vermelho:** ALERTA CRÍTICO (Invasão de Via).
-* ✅ **HUD Profissional:** Interface visual que simula sistemas de CFTV corporativos.
+## 🚀 Features
+* ✅ **Human and Vehicle Detection:** Identifies pedestrians, cars, and trucks.
 
-## 💻 Como Executar
-Para rodar o projeto, execute os comandos abaixo sequencialmente no seu terminal:
+* ✅ **Risk Classification:**
+* 🟢 **Green:** Safe area / Normal monitoring.
+
+* 🔴 **Red:** CRITICAL ALERT (Road Intrusion).
+
+* ✅ **Professional HUD:** Visual interface that simulates corporate CCTV systems.
+
+## 💻 How to Run
+To run the project, execute the commands below sequentially in your terminal:
 
 ```bash
-# 1. Instalar Dependências (IA e Visão Computacional)
+#1. Install Dependencies (AI and Computer Vision)
 pip install ultralytics opencv-python
 
 # 2. Rodar o Monitoramento
